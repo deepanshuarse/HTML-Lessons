@@ -1,4 +1,4 @@
-##✨ About
+## ✨ About
 
 > Today, I learned the basics of creating and styling buttons using HTML and CSS.
 
