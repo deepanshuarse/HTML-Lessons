@@ -1,7 +1,10 @@
-##✨ About:
-Today, I learned the basics of creating and styling buttons using HTML and CSS.
+##✨ About
 
-## Learned:
+> Today, I learned the basics of creating and styling buttons using HTML and CSS.
+
+---
+
+## Learned
 - HTML `<button>`
 - CSS button styling
 - Background color
