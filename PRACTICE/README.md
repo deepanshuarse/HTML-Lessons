@@ -1,9 +1,9 @@
-import pypandoc
-
-content = """# HTML & CSS Practice
+## HTML & CSS Practice
 
 A collection of my **HTML and CSS practice projects**.  
 I use this repository to learn, experiment, and improve my frontend development skills.
+
+---
 
 ## 🎯 Goals
 
@@ -12,6 +12,8 @@ I use this repository to learn, experiment, and improve my frontend development 
 - Practice layouts with Flexbox and Grid
 - Improve responsive design skills
 - Experiment with different UI designs
+
+---
 
 ## 🛠️ Technologies
 
