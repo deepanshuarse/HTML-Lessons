@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <title>my grid</title>
+    <style>
+      .grid{
+        display: grid;
+        grid-template-columns: 200px 75px;
+        margin-bottom: 50px;
+      }
+
+      .column{
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+        margin-bottom: 50px;
+      }
+
+      .youtube{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap:20px;
+        row-gap:10px;
+      }
+
+      .one{
+        background-color: lightpink;
+      }
+      .two{
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="one">200px</div>
+      <div class="two">75px</div>
+    </div>
+    <div class="column">
+      <div style="background-color: lightblue;">col1</div>
+      <div style="background-color: lightpink">col2</div>
+      <div style="background-color: lightblue;">col3</div>
+    </div>
+
+    <div class="youtube">
+      <div style="background-color: lightpink">col1</div>
+      <div style="background-color: lightblue;">col2</div>
+      <div style="background-color: lightpink">col3</div>
+      <div style="background-color: lightblue;">col4</div>
+      <div style="background-color: lightpink">col1</div>
+      <div style="background-color: lightblue;">col2</div>
+      <div style="background-color: lightpink">col3</div>
+      <div style="background-color: lightblue;">col4</div>
+    </div>
+  </body>
+</html>
