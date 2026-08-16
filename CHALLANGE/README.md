@@ -10,3 +10,7 @@ This repository contains solutions to various challenges from my HTML & CSS cour
 
 Instead of only following tutorials, I’m using these exercises to practice writing code from scratch and improve my understanding of how websites are structured and styled.
 
+## 🛠️ Technologies
+
+- HTML5
+- CSS3
