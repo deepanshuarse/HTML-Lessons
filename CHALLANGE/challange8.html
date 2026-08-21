@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>facebook-add-friend</title>
+
+    <style>
+
+      body{
+        padding-bottom: 1000px;
+      }
+
+      .header{
+        display :flex;
+        position: fixed;
+        align-items: center;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 70px;
+        background-color: lightblue;
+      }
+
+      .profile-picture{
+        width: 50px;
+        margin-left: 20px;
+        border-radius: 50%;
+        margin-right: 15px;
+      }
+
+      .name{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+      }
+
+      .button{
+        margin-left: 850px;
+      }
+
+      .add{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        background-color: rgb(0, 145, 255);
+        font-weight: 600;
+        margin-right: 5px;
+        transition: opacity 0.15s;
+      }
+
+      .message:active,
+      .add:active{
+        opacity: 0.7;
+      }
+      
+      .message{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border: none;
+        border-radius: 8px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        font-weight: 600;
+        transition: opacity 0.15s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div><img class="profile-picture" src="/other-picture/two.jpg"></div>
+      <div class="name">Oliver cat</div>
+      <div class="button">
+        <button class="add">Add Friend</button>
+        <button class="message">Message</button>
+      </div>
+    </div>
+  </body>
+</html>
